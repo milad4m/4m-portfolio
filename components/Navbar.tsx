@@ -43,6 +43,7 @@ const Navbar = () => {
             </Link>
             <div className="md:hidden">
               <button
+                aria-label="menu"
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
@@ -78,6 +79,7 @@ const Navbar = () => {
               })}
               {currentTheme === "dark" ? (
                 <button
+                  aria-label="theme"
                   onClick={() => setTheme("light")}
                   className="bg-slate-100 p-2 rounded-xl"
                 >
@@ -85,6 +87,7 @@ const Navbar = () => {
                 </button>
               ) : (
                 <button
+                  aria-label="theme"
                   onClick={() => setTheme("dark")}
                   className="bg-slate-100 p-2 rounded-xl order-first md:order-last"
                 >
