@@ -8,7 +8,7 @@ describe("Footer Component", () => {
     render(<Footer />);
 
     // Check if the © 2023 Milad4M text renders correctly
-    expect(screen.getByText(/© 2023 Milad4M/i)).toBeInTheDocument();
+    expect(screen.getByText(/© 2024 Milad4M/i)).toBeInTheDocument();
 
     // Check if the GitHub icon link renders correctly
     const githubLink = screen.getByRole("link", { name: /github/i });

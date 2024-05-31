@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
           <a href="/" className="hover:underline">
-            © 2023 Milad4M
+            © 2024 Milad4M
           </a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
